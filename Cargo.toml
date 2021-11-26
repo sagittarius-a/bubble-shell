@@ -1,11 +1,16 @@
 [package]
-name = "bubble-shell"
-version = "0.1.1"
-authors = ["Sagittarius-a", "Josh Mcguigan"]
+name = "osh"
+version = "0.2.0"
+authors = ["Sagittarius-a"]
 edition = "2018"
 
 [dependencies]
 rustyline = "8.2.0"
+rustyline-derive = "0.5.0"
 serde = { version = "1.0", features = ["derive"] }
 serde_yaml = "0.8"
 console = "0.14.1"
+log = "0.4"
+log4rs = "1.0.0"
+skim = "*"
+shell-words = "1.0.0"
